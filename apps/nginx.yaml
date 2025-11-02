@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://github.com/your-org/your-repo.git
+    repoURL: https://github.com/mcasperson/ArgoCDHelmChart
     targetRevision: HEAD
     path: charts/my-chart
     helm:
