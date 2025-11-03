@@ -15,3 +15,6 @@ spec:
     helm:
       valueFiles:
         - values.yaml
+      releaseName: my-helm-app
+      values: |
+        whatever: you want to override
